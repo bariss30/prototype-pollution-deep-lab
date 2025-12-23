@@ -14,6 +14,9 @@ It simulates a vulnerable "recursive merge" function often found in real-world l
 3.  How modifying `Object.prototype` affects **every object** in the Node.js runtime.
 4.  How to detect and fix this vulnerability.
 
+![MergeMate Arayüzü](./image.png)
+
+
 ##  How to Run
 
 ### Option 1: Using Docker (Recommended)
@@ -24,4 +27,5 @@ docker build -t mergemate .
 # Run the container
 docker run -p 3000:3000 mergemate
 
-![MergeMate Arayüzü](./image.png)
+
+
